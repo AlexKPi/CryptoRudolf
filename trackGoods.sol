@@ -94,7 +94,7 @@ contract supply_Chain {
             tracks[track_id]._owner_id = user2_id;
             tracks[track_id]._timeStamp = now;
             
-            products[prod_id]._product_owner = ;
+            products[prod_id]._product_owner = p2._userAddress;
             
             //tracks[track_id]._product_owner = msg.sender;
             
@@ -108,6 +108,8 @@ contract supply_Chain {
             tracks[track_id]._product_id =prod_id;
             tracks[track_id]._owner_id = user2_id;
             tracks[track_id]._timeStamp = now;
+            
+            products[prod_id]._product_owner = p2._userAddress;
 
             //tracks[track_id]._product_owner = msg.sender;
             
@@ -123,6 +125,8 @@ contract supply_Chain {
             tracks[track_id]._product_id =prod_id;
             tracks[track_id]._owner_id = user2_id;
             tracks[track_id]._timeStamp = now;
+            
+            products[prod_id]._product_owner = p2._userAddress;
             
             return (true);
         }
